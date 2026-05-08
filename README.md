@@ -20,32 +20,6 @@ The notebook [verify_proposition.ipynb](verify_proposition.ipynb) verifies that 
 
 Running the notebook [process_csv_files.ipynb](process_csv_files.ipynb) produces the .csv files such as [2_1_cleaned_architectures.csv](2_1_cleaned_architectures.csv) which display the results of our searches and useful information such as the defect. The notebook also produces [counterexamples.csv](counterexamples.csv) which contains all of the counterexamples to the minimal unimodal we could find.
 
-
-## Project Directory
-
-```text
-PNNArchitectures
-├── 2_1_architectures.csv
-├── 2_1_cleaned_architectures.csv
-├── 2_1_counterexample_verify.ipynb
-├── 2_2_architectures.csv
-├── 2_2_cleaned_architectures.csv
-├── 2_2_counterexample_verify.ipynb
-├── 2_3_architectures.csv
-├── 2_3_cleaned_architectures.csv
-├── 2_3_counterexample_verify.ipynb
-├── analyze_results.ipynb
-├── counterexamples.csv
-├── dim_backprop.py
-├── flexible_search.ipynb
-├── frontier_search.ipynb
-├── is_unimodal.py
-├── README.md
-├── verify_minimal.ipynb
-├── verify_proposition.ipynb
-└── wide_rectangles.ipynb
-```
-
 ## Disclaimer 
 
 We acknowledge the use of GitHub Copilot (via Visual Studio Code) and Gemini 3 in code generation, formatting, and debugging during the writing of this repository. Our process dictated that all AI-assisted code must be rewritten for readability, tested for bugs, and verified line-by-line for validity by humans who take full responsibility. 
