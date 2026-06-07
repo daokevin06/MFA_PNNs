@@ -103,10 +103,10 @@ For Regions 4,5,9,13, we respectively have:
 $$
 \begin{align*}
 D_{(2,d_1,3,d_3,5,5,3,1)} & \leq D_{(2,d_1,3)}+D_{(3,d_3,5)}+D_{(5,5,3,1)}-3-5\leq 9+30+D_{(5,5,3,1)}-3-5\\
-D_{(2,d_1,3,5,6,4,3,1)} & \leq D_{(2,d_1,3)}+D_{(3,5,6,9,3,1)}-3\leq 9+58-3=64\\
+D_{(2,d_1,3,5,6,4,3,1)} & \leq D_{(2,d_1,3)}+D_{(3,5,6,4,3,1)}-3\leq 9+58-3=64\\
 D_{(2,d_1,d_2,4,5,5,3,1)} & \leq D_{(2,d_1,d_2,4)}+D_{(4,5,5,3,1)}-4\leq 20+47-4=63\\
 D_{(2,d_1,4,5,5,4,3,1)} & \leq D_{(2,d_1,4,5)}+D_{(5,5)}+D_{(5,4,3,1)}-10\leq 24+25+25-10=64.
 \end{align*}
 $$
 
-Here, we used finite field computations to verify that $D_{(5,5,3,1)}=32$, $D_{(3,5,6,9,3,1)}=58$, $D_{(4,5,5,3,1)}=47$, and $D_{(5,4,3,1)}=25$. We also used the statement $D_{(2,d_1,4,5)}\leq 24$ for $d_1\geq 3$ which follows from the main results of [Massarenti. et. al. 2025](https://arxiv.org/abs/2511.19703).
+Here, we used finite field computations to verify that $D_{(5,5,3,1)}=32$, $D_{(3,5,6,4,3,1)}=58$, $D_{(4,5,5,3,1)}=47$, and $D_{(5,4,3,1)}=25$. We also used the statement $D_{(2,d_1,4,5)}\leq 24$ for $d_1\geq 3$ which follows from the main results of [Massarenti. et. al. 2025](https://arxiv.org/abs/2511.19703).
