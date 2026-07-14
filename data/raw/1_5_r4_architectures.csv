@@ -1,0 +1,29 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,4,"[1, 224, 5]",1344,5,5,True,False
+2,4,"[1, 12, 5]",72,5,5,True,False
+2,4,"[1, 3, 5]",18,5,5,True,False
+2,4,"[1, 2, 5]",12,5,5,True,True
+3,4,"[1, 85, 91, 5]",8275,5,5,True,False
+3,4,"[1, 17, 2, 5]",61,5,5,True,False
+3,4,"[1, 16, 42, 5]",898,5,5,True,False
+3,4,"[1, 14, 27, 5]",527,5,5,True,False
+3,4,"[1, 8, 214, 5]",2790,5,5,True,False
+3,4,"[1, 7, 175, 5]",2107,5,5,True,False
+3,4,"[1, 13, 110, 5]",1993,5,5,True,False
+3,4,"[1, 6, 126, 5]",1392,5,5,True,False
+3,4,"[1, 5, 197, 5]",1975,5,5,True,False
+3,4,"[1, 6, 60, 5]",666,5,5,True,False
+3,4,"[1, 4, 169, 5]",1525,5,5,True,False
+3,4,"[1, 2, 115, 5]",807,5,5,True,False
+3,4,"[1, 10, 34, 5]",520,5,5,True,False
+3,4,"[1, 13, 8, 5]",157,5,5,True,False
+3,4,"[1, 4, 4, 5]",40,5,5,True,False
+3,4,"[1, 3, 68, 5]",547,5,5,True,False
+3,4,"[1, 2, 88, 5]",618,5,5,True,False
+3,4,"[1, 3, 37, 5]",299,5,5,True,False
+3,4,"[1, 2, 35, 5]",247,5,5,True,False
+3,4,"[1, 3, 3, 5]",27,5,5,True,False
+3,4,"[1, 2, 13, 5]",93,5,5,True,False
+3,4,"[1, 2, 4, 5]",30,5,5,True,False
+3,4,"[1, 4, 2, 5]",22,5,5,True,False
+3,4,"[1, 2, 2, 5]",16,5,5,True,True
