@@ -1,0 +1,11 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,9,"[4, 193, 7]",2123,1540,1540,True,False
+2,9,"[4, 140, 7]",1540,1400,1540,False,False
+2,9,"[4, 153, 7]",1683,1530,1540,False,False
+2,9,"[4, 190, 7]",2090,1540,1540,True,False
+2,9,"[4, 186, 7]",2046,1540,1540,True,False
+2,9,"[4, 174, 7]",1914,1540,1540,True,False
+2,9,"[4, 172, 7]",1892,1540,1540,True,False
+2,9,"[4, 167, 7]",1837,1540,1540,True,False
+2,9,"[4, 165, 7]",1815,1540,1540,True,False
+2,9,"[4, 154, 7]",1694,1540,1540,True,True

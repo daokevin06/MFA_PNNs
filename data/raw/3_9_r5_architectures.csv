@@ -1,0 +1,4 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,5,"[3, 19, 9]",228,189,189,True,False
+2,5,"[3, 17, 9]",204,187,189,False,False
+2,5,"[3, 18, 9]",216,189,189,True,True

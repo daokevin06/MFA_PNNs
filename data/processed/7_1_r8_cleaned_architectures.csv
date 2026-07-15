@@ -1,0 +1,24 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,8,"[7, 429, 1]",3432,3003,3003,True,True,True,3003,0
+2,8,"[7, 2306, 1]",18448,3003,3003,True,False,True,3003,0
+2,8,"[7, 1422, 1]",11376,3003,3003,True,False,True,3003,0
+2,8,"[7, 1393, 1]",11144,3003,3003,True,False,True,3003,0
+2,8,"[7, 859, 1]",6872,3003,3003,True,False,True,3003,0
+2,8,"[7, 802, 1]",6416,3003,3003,True,False,True,3003,0
+2,8,"[7, 565, 1]",4520,3003,3003,True,False,True,3003,0
+2,8,"[7, 378, 1]",3024,2646,3003,False,False,True,2646,0
+2,8,"[7, 491, 1]",3928,3003,3003,True,False,True,3003,0
+2,8,"[7, 484, 1]",3872,3003,3003,True,False,True,3003,0
+2,8,"[7, 469, 1]",3752,3003,3003,True,False,True,3003,0
+2,8,"[7, 385, 1]",3080,2695,3003,False,False,True,2695,0
+2,8,"[7, 388, 1]",3104,2716,3003,False,False,True,2716,0
+2,8,"[7, 455, 1]",3640,3003,3003,True,False,True,3003,0
+2,8,"[7, 442, 1]",3536,3003,3003,True,False,True,3003,0
+2,8,"[7, 439, 1]",3512,3003,3003,True,False,True,3003,0
+2,8,"[7, 400, 1]",3200,2800,3003,False,False,True,2800,0
+2,8,"[7, 431, 1]",3448,3003,3003,True,False,True,3003,0
+2,8,"[7, 415, 1]",3320,2905,3003,False,False,True,2905,0
+2,8,"[7, 418, 1]",3344,2926,3003,False,False,True,2926,0
+2,8,"[7, 427, 1]",3416,2989,3003,False,False,True,2989,0
+2,8,"[7, 428, 1]",3424,2996,3003,False,False,True,2996,0
+2,8,"[7, 430, 1]",3440,3003,3003,True,False,True,3003,0

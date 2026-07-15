@@ -1,41 +1,56 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,9,"[1, 84, 8]",756,8,8,True,False
-2,9,"[1, 79, 8]",711,8,8,True,False
-2,9,"[1, 55, 8]",495,8,8,True,False
-2,9,"[1, 4, 8]",36,8,8,True,False
-2,9,"[1, 2, 8]",18,8,8,True,True
-3,9,"[1, 279, 59, 8]",17212,8,8,True,False
-3,9,"[1, 101, 59, 8]",6532,8,8,True,False
-3,9,"[1, 91, 294, 8]",29197,8,8,True,False
-3,9,"[1, 32, 29, 8]",1192,8,8,True,False
-3,9,"[1, 232, 26, 8]",6472,8,8,True,False
-3,9,"[1, 193, 16, 8]",3409,8,8,True,False
-3,9,"[1, 23, 208, 8]",6471,8,8,True,False
-3,9,"[1, 179, 19, 8]",3732,8,8,True,False
-3,9,"[1, 17, 131, 8]",3292,8,8,True,False
-3,9,"[1, 288, 12, 8]",3840,8,8,True,False
-3,9,"[1, 262, 9, 8]",2692,8,8,True,False
-3,9,"[1, 73, 18, 8]",1531,8,8,True,False
-3,9,"[1, 30, 48, 8]",1854,8,8,True,False
-3,9,"[1, 101, 9, 8]",1082,8,8,True,False
-3,9,"[1, 221, 4, 8]",1137,8,8,True,False
-3,9,"[1, 13, 109, 8]",2302,8,8,True,False
-3,9,"[1, 111, 8, 8]",1063,8,8,True,False
-3,9,"[1, 27, 7, 8]",272,8,8,True,False
-3,9,"[1, 2, 51, 8]",512,8,8,True,False
-3,9,"[1, 172, 6, 8]",1252,8,8,True,False
-3,9,"[1, 23, 10, 8]",333,8,8,True,False
-3,9,"[1, 15, 22, 8]",521,8,8,True,False
-3,9,"[1, 277, 2, 8]",847,8,8,True,False
-3,9,"[1, 2, 34, 8]",342,8,8,True,False
-3,9,"[1, 86, 4, 8]",462,8,8,True,False
-3,9,"[1, 3, 6, 8]",69,8,8,True,False
-3,9,"[1, 29, 2, 8]",103,8,8,True,False
-3,9,"[1, 12, 2, 8]",52,8,8,True,False
-3,9,"[1, 5, 3, 8]",44,8,8,True,False
-3,9,"[1, 2, 5, 8]",52,8,8,True,False
-3,9,"[1, 5, 2, 8]",31,8,8,True,False
-3,9,"[1, 3, 2, 8]",25,8,8,True,False
-3,9,"[1, 2, 4, 8]",42,8,8,True,False
-3,9,"[1, 2, 3, 8]",32,8,8,True,False
-3,9,"[1, 2, 2, 8]",22,8,8,True,True
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal
+2,9,"[1, 84, 8]",756,8,8,True,False,,,,,,,,,,True
+2,9,"[1, 79, 8]",711,8,8,True,False,,,,,,,,,,True
+2,9,"[1, 55, 8]",495,8,8,True,False,,,,,,,,,,True
+2,9,"[1, 4, 8]",36,8,8,True,False,,,,,,,,,,True
+2,9,"[1, 2, 8]",18,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 279, 59, 8]",17212,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 101, 59, 8]",6532,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 91, 294, 8]",29197,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 32, 29, 8]",1192,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 232, 26, 8]",6472,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 193, 16, 8]",3409,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 23, 208, 8]",6471,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 179, 19, 8]",3732,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 17, 131, 8]",3292,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 288, 12, 8]",3840,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 262, 9, 8]",2692,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 73, 18, 8]",1531,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 30, 48, 8]",1854,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 101, 9, 8]",1082,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 221, 4, 8]",1137,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 13, 109, 8]",2302,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 111, 8, 8]",1063,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 27, 7, 8]",272,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 2, 51, 8]",512,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 172, 6, 8]",1252,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 23, 10, 8]",333,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 15, 22, 8]",521,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 277, 2, 8]",847,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 2, 34, 8]",342,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 86, 4, 8]",462,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 3, 6, 8]",69,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 29, 2, 8]",103,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 12, 2, 8]",52,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 5, 3, 8]",44,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 2, 5, 8]",52,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 5, 2, 8]",31,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 3, 2, 8]",25,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 2, 4, 8]",42,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 2, 3, 8]",32,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 2, 2, 8]",22,8,8,True,False,,,,,,,,,,True
+2,9,"[1, 1, 8]",9,8,8,True,True,,,,,,,,,,True
+3,9,"[1, 219, 1, 8]",446,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 1, 277, 8]",2494,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 1, 63, 8]",568,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 1, 43, 8]",388,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 1, 37, 8]",334,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 1, 18, 8]",163,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 1, 2, 8]",19,8,8,True,False,,,,,,,,,,True
+3,9,"[1, 217, 1, 8]",442,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 79, 1, 8]",166,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 16, 1, 8]",40,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 12, 1, 8]",32,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 4, 1, 8]",16,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 2, 1, 8]",12,8,8,True,False,,,,,,,,,,False
+3,9,"[1, 1, 1, 8]",10,8,8,True,True,,,,,,,,,,True

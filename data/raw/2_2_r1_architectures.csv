@@ -47,3 +47,15 @@ h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_f
 3,1,"[2, 2, 3, 2]",16,4,4,True,False
 3,1,"[2, 3, 2, 2]",16,4,4,True,False
 3,1,"[2, 2, 2, 2]",12,4,4,True,True
+2,1,"[2, 1, 2]",4,3,4,False,False
+3,1,"[2, 1, 19, 2]",59,3,4,False,False
+3,1,"[2, 1, 137, 2]",413,3,4,False,False
+3,1,"[2, 199, 1, 2]",599,3,4,False,False
+3,1,"[2, 1, 199, 2]",599,3,4,False,False
+3,1,"[2, 1, 291, 2]",875,3,4,False,False
+3,1,"[2, 250, 1, 2]",752,3,4,False,False
+3,1,"[2, 270, 1, 2]",812,3,4,False,False
+3,1,"[2, 291, 1, 2]",875,3,4,False,False
+3,1,"[2, 1, 293, 2]",881,3,4,False,False
+3,1,"[2, 1, 300, 2]",902,3,4,False,False
+3,1,"[2, 300, 1, 2]",902,3,4,False,False

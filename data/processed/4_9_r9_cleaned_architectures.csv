@@ -1,0 +1,8 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,9,"[4, 165, 9]",2145,1980,1980,True,True,True,1980,0
+2,9,"[4, 198, 9]",2574,1980,1980,True,False,True,1980,0
+2,9,"[4, 175, 9]",2275,1980,1980,True,False,True,1980,0
+2,9,"[4, 174, 9]",2262,1980,1980,True,False,True,1980,0
+2,9,"[4, 171, 9]",2223,1980,1980,True,False,True,1980,0
+2,9,"[4, 163, 9]",2119,1956,1980,False,False,True,1956,0
+2,9,"[4, 164, 9]",2132,1968,1980,False,False,True,1968,0

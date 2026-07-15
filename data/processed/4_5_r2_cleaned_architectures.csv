@@ -1,0 +1,4 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,2,"[4, 7, 5]",63,50,50,True,True,True,50,0
+2,2,"[4, 8, 5]",72,50,50,True,False,True,50,0
+2,2,"[4, 6, 5]",54,47,50,False,False,True,48,1

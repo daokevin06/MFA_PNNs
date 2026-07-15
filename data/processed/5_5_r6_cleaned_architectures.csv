@@ -1,0 +1,10 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,6,"[5, 117, 5]",1170,1050,1050,True,True,True,1050,0
+2,6,"[5, 166, 5]",1660,1050,1050,True,False,True,1050,0
+2,6,"[5, 156, 5]",1560,1050,1050,True,False,True,1050,0
+2,6,"[5, 134, 5]",1340,1050,1050,True,False,True,1050,0
+2,6,"[5, 109, 5]",1090,981,1050,False,False,True,981,0
+2,6,"[5, 121, 5]",1210,1050,1050,True,False,True,1050,0
+2,6,"[5, 113, 5]",1130,1017,1050,False,False,True,1017,0
+2,6,"[5, 115, 5]",1150,1035,1050,False,False,True,1035,0
+2,6,"[5, 116, 5]",1160,1044,1050,False,False,True,1044,0

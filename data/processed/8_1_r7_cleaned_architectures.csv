@@ -1,0 +1,16 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,7,"[8, 429, 1]",3861,3432,3432,True,True,True,3432,0
+2,7,"[8, 2408, 1]",21672,3432,3432,True,False,True,3432,0
+2,7,"[8, 1283, 1]",11547,3432,3432,True,False,True,3432,0
+2,7,"[8, 1195, 1]",10755,3432,3432,True,False,True,3432,0
+2,7,"[8, 1072, 1]",9648,3432,3432,True,False,True,3432,0
+2,7,"[8, 618, 1]",5562,3432,3432,True,False,True,3432,0
+2,7,"[8, 528, 1]",4752,3432,3432,True,False,True,3432,0
+2,7,"[8, 455, 1]",4095,3432,3432,True,False,True,3432,0
+2,7,"[8, 416, 1]",3744,3328,3432,False,False,True,3328,0
+2,7,"[8, 434, 1]",3906,3432,3432,True,False,True,3432,0
+2,7,"[8, 421, 1]",3789,3368,3432,False,False,True,3368,0
+2,7,"[8, 430, 1]",3870,3432,3432,True,False,True,3432,0
+2,7,"[8, 426, 1]",3834,3408,3432,False,False,True,3408,0
+2,7,"[8, 427, 1]",3843,3416,3432,False,False,True,3416,0
+2,7,"[8, 428, 1]",3852,3424,3432,False,False,True,3424,0

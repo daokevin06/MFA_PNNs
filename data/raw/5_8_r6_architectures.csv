@@ -1,0 +1,12 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,6,"[5, 210, 8]",2730,1680,1680,True,False
+2,6,"[5, 171, 8]",2223,1680,1680,True,False
+2,6,"[5, 165, 8]",2145,1680,1680,True,False
+2,6,"[5, 148, 8]",1924,1680,1680,True,False
+2,6,"[5, 142, 8]",1846,1680,1680,True,False
+2,6,"[5, 131, 8]",1703,1572,1680,False,False
+2,6,"[5, 132, 8]",1716,1584,1680,False,False
+2,6,"[5, 141, 8]",1833,1680,1680,True,False
+2,6,"[5, 138, 8]",1794,1656,1680,False,False
+2,6,"[5, 139, 8]",1807,1668,1680,False,False
+2,6,"[5, 140, 8]",1820,1680,1680,True,True

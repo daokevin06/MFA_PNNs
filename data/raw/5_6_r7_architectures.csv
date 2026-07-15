@@ -1,0 +1,8 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,7,"[5, 216, 6]",2376,1980,1980,True,False
+2,7,"[5, 206, 6]",2266,1980,1980,True,False
+2,7,"[5, 202, 6]",2222,1980,1980,True,False
+2,7,"[5, 199, 6]",2189,1980,1980,True,False
+2,7,"[5, 196, 6]",2156,1960,1980,False,False
+2,7,"[5, 198, 6]",2178,1980,1980,True,True
+2,7,"[5, 197, 6]",2167,1970,1980,False,False

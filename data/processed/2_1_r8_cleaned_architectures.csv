@@ -1,4 +1,14 @@
 h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,8,"[2, 5, 1]",15,9,9,True,True,True,9,0
+2,8,"[2, 209, 1]",627,9,9,True,False,True,9,0
+2,8,"[2, 39, 1]",117,9,9,True,False,True,9,0
+2,8,"[2, 38, 1]",114,9,9,True,False,True,9,0
+2,8,"[2, 22, 1]",66,9,9,True,False,True,9,0
+2,8,"[2, 4, 1]",12,8,9,False,False,True,8,0
+2,8,"[2, 20, 1]",60,9,9,True,False,True,9,0
+2,8,"[2, 9, 1]",27,9,9,True,False,True,9,0
+2,8,"[2, 8, 1]",24,9,9,True,False,True,9,0
+2,8,"[2, 6, 1]",18,9,9,True,False,True,9,0
 3,8,"[2, 6, 10, 1]",82,65,65,True,True,True,65,0
 3,8,"[2, 5, 12, 1]",82,65,65,True,True,True,65,0
 3,8,"[2, 4, 16, 1]",88,65,65,True,True,True,65,0
@@ -40,3 +50,37 @@ h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_f
 3,8,"[2, 6, 9, 1]",75,60,65,False,False,True,60,0
 3,8,"[2, 5, 11, 1]",76,60,65,False,False,True,60,0
 3,8,"[2, 3, 27, 1]",114,47,65,False,False,True,65,18
+3,8,"[2, 3, 176, 1]",710,47,65,False,False,True,65,18
+3,8,"[2, 3, 198, 1]",798,47,65,False,False,True,65,18
+3,8,"[2, 220, 4, 1]",1324,36,65,False,False,True,65,29
+3,8,"[2, 2, 264, 1]",796,11,65,False,False,True,65,54
+3,8,"[2, 159, 6, 1]",1278,54,65,False,False,True,65,11
+3,8,"[2, 197, 5, 1]",1384,45,65,False,False,True,65,20
+3,8,"[2, 251, 5, 1]",1762,45,65,False,False,True,65,20
+3,8,"[2, 121, 7, 1]",1096,63,65,False,False,True,65,2
+3,8,"[2, 2, 282, 1]",850,11,65,False,False,True,65,54
+3,8,"[2, 249, 6, 1]",1998,54,65,False,False,True,65,11
+3,8,"[2, 255, 4, 1]",1534,36,65,False,False,True,65,29
+3,8,"[2, 185, 7, 1]",1672,63,65,False,False,True,65,2
+3,8,"[2, 258, 6, 1]",2070,54,65,False,False,True,65,11
+3,8,"[2, 2, 300, 1]",904,11,65,False,False,True,65,54
+3,8,"[2, 268, 5, 1]",1881,45,65,False,False,True,65,20
+3,8,"[2, 254, 7, 1]",2293,63,65,False,False,True,65,2
+3,8,"[2, 3, 250, 1]",1006,47,65,False,False,True,65,18
+3,8,"[2, 284, 6, 1]",2278,54,65,False,False,True,65,11
+3,8,"[2, 286, 5, 1]",2007,45,65,False,False,True,65,20
+3,8,"[2, 266, 7, 1]",2401,63,65,False,False,True,65,2
+3,8,"[2, 3, 265, 1]",1066,47,65,False,False,True,65,18
+3,8,"[2, 296, 6, 1]",2374,54,65,False,False,True,65,11
+3,8,"[2, 297, 5, 1]",2084,45,65,False,False,True,65,20
+3,8,"[2, 3, 284, 1]",1142,47,65,False,False,True,65,18
+3,8,"[2, 3, 295, 1]",1186,47,65,False,False,True,65,18
+3,8,"[2, 290, 7, 1]",2617,63,65,False,False,True,65,2
+3,8,"[2, 3, 300, 1]",1206,47,65,False,False,True,65,18
+3,8,"[2, 298, 7, 1]",2689,63,65,False,False,True,65,2
+3,8,"[2, 300, 2, 1]",1202,18,65,False,False,True,65,47
+3,8,"[2, 300, 4, 1]",1804,36,65,False,False,True,65,29
+3,8,"[2, 299, 5, 1]",2098,45,65,False,False,True,65,20
+3,8,"[2, 300, 6, 1]",2406,54,65,False,False,True,65,11
+3,8,"[2, 299, 7, 1]",2698,63,65,False,False,True,65,2
+3,8,"[2, 300, 7, 1]",2707,63,65,False,False,True,65,2

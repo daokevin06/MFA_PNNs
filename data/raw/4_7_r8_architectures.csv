@@ -1,0 +1,8 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,8,"[4, 111, 7]",1221,1110,1155,False,False
+2,8,"[4, 138, 7]",1518,1155,1155,True,False
+2,8,"[4, 120, 7]",1320,1155,1155,True,False
+2,8,"[4, 114, 7]",1254,1140,1155,False,False
+2,8,"[4, 119, 7]",1309,1155,1155,True,False
+2,8,"[4, 116, 7]",1276,1155,1155,True,True
+2,8,"[4, 115, 7]",1265,1150,1155,False,False

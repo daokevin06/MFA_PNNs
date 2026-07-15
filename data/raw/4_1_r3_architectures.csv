@@ -98,3 +98,11 @@ h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_f
 4,3,"[4, 24, 47, 67, 1]",4440,4042,4060,False,False
 4,3,"[4, 15, 56, 60, 1]",4320,4060,4060,True,True
 4,3,"[4, 53, 56, 54, 1]",6258,4060,4060,True,True
+3,3,"[4, 78, 6, 1]",786,120,220,False,False
+3,3,"[4, 81, 5, 1]",734,100,220,False,False
+3,3,"[4, 76, 10, 1]",1074,200,220,False,False
+3,3,"[4, 79, 7, 1]",876,140,220,False,False
+3,3,"[4, 81, 8, 1]",980,160,220,False,False
+3,3,"[4, 77, 9, 1]",1010,180,220,False,False
+3,3,"[4, 80, 10, 1]",1130,200,220,False,False
+3,3,"[4, 81, 10, 1]",1144,200,220,False,False
