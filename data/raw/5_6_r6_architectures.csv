@@ -1,14 +1,14 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,6,"[5, 117, 6]",1287,1170,1260,False,False
-2,6,"[5, 198, 6]",2178,1260,1260,True,False
-2,6,"[5, 119, 6]",1309,1190,1260,False,False
-2,6,"[5, 190, 6]",2090,1260,1260,True,False
-2,6,"[5, 123, 6]",1353,1230,1260,False,False
-2,6,"[5, 164, 6]",1804,1260,1260,True,False
-2,6,"[5, 140, 6]",1540,1260,1260,True,False
-2,6,"[5, 138, 6]",1518,1260,1260,True,False
-2,6,"[5, 128, 6]",1408,1260,1260,True,False
-2,6,"[5, 124, 6]",1364,1240,1260,False,False
-2,6,"[5, 127, 6]",1397,1260,1260,True,False
-2,6,"[5, 125, 6]",1375,1250,1260,False,False
-2,6,"[5, 126, 6]",1386,1260,1260,True,True
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,6,"[5, 117, 6]",1287,1170,1260,False,False,,,,,,,,,
+2,6,"[5, 198, 6]",2178,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 119, 6]",1309,1190,1260,False,False,,,,,,,,,
+2,6,"[5, 190, 6]",2090,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 123, 6]",1353,1230,1260,False,False,,,,,,,,,
+2,6,"[5, 164, 6]",1804,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 140, 6]",1540,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 138, 6]",1518,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 128, 6]",1408,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 124, 6]",1364,1240,1260,False,False,,,,,,,,,
+2,6,"[5, 127, 6]",1397,1260,1260,True,False,,,,,,,,,
+2,6,"[5, 125, 6]",1375,1250,1260,False,False,,,,,,,,,
+2,6,"[5, 126, 6]",1386,1260,1260,True,True,,,,,,,,,

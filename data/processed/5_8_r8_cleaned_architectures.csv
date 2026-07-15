@@ -1,12 +1,13 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,8,"[5, 335, 8]",4355,3960,3960,True,True,True,3960,0
-2,8,"[5, 306, 8]",3978,3672,3960,False,False,True,3672,0
-2,8,"[5, 490, 8]",6370,3960,3960,True,False,True,3960,0
-2,8,"[5, 372, 8]",4836,3960,3960,True,False,True,3960,0
-2,8,"[5, 360, 8]",4680,3960,3960,True,False,True,3960,0
-2,8,"[5, 352, 8]",4576,3960,3960,True,False,True,3960,0
-2,8,"[5, 308, 8]",4004,3696,3960,False,False,True,3696,0
-2,8,"[5, 309, 8]",4017,3708,3960,False,False,True,3708,0
-2,8,"[5, 327, 8]",4251,3924,3960,False,False,True,3924,0
-2,8,"[5, 336, 8]",4368,3960,3960,True,False,True,3960,0
-2,8,"[5, 329, 8]",4277,3948,3960,False,False,True,3948,0
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2,8,"[5, 335, 8]",4355,3960,3960,True,True,3960,,,,,,,,,True,0
+2,8,"[5, 306, 8]",3978,3672,3960,False,False,3672,,,,,,,,,True,0
+2,8,"[5, 490, 8]",6370,3960,3960,True,False,3960,,,,,,,,,True,0
+2,8,"[5, 372, 8]",4836,3960,3960,True,False,3960,,,,,,,,,True,0
+2,8,"[5, 360, 8]",4680,3960,3960,True,False,3960,,,,,,,,,True,0
+2,8,"[5, 352, 8]",4576,3960,3960,True,False,3960,,,,,,,,,True,0
+2,8,"[5, 308, 8]",4004,3696,3960,False,False,3696,,,,,,,,,True,0
+2,8,"[5, 309, 8]",4017,3708,3960,False,False,3708,,,,,,,,,True,0
+2,8,"[5, 327, 8]",4251,3924,3960,False,False,3924,,,,,,,,,True,0
+2,8,"[5, 336, 8]",4368,3960,3960,True,False,3960,,,,,,,,,True,0
+2,8,"[5, 329, 8]",4277,3948,3960,False,False,3948,,,,,,,,,True,0
+2,8,"[5, 334, 8]",4342,3960,3960,True,False,3960,0.0,0.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",21.66016529999979,filling_maximal_subarchitecture_contradiction,"[[5, 335, 8]]",[1],True,0

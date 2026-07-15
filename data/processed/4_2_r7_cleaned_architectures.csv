@@ -1,11 +1,11 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,7,"[4, 48, 2]",288,240,240,True,True,True,240,0
-2,7,"[4, 100, 2]",600,240,240,True,False,True,240,0
-2,7,"[4, 40, 2]",240,200,240,False,False,True,200,0
-2,7,"[4, 44, 2]",264,220,240,False,False,True,220,0
-2,7,"[4, 98, 2]",588,240,240,True,False,True,240,0
-2,7,"[4, 68, 2]",408,240,240,True,False,True,240,0
-2,7,"[4, 60, 2]",360,240,240,True,False,True,240,0
-2,7,"[4, 46, 2]",276,230,240,False,False,True,230,0
-2,7,"[4, 49, 2]",294,240,240,True,False,True,240,0
-2,7,"[4, 47, 2]",282,235,240,False,False,True,235,0
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2,7,"[4, 48, 2]",288,240,240,True,True,240,,,,,,,,,True,0
+2,7,"[4, 100, 2]",600,240,240,True,False,240,,,,,,,,,True,0
+2,7,"[4, 40, 2]",240,200,240,False,False,200,,,,,,,,,True,0
+2,7,"[4, 44, 2]",264,220,240,False,False,220,,,,,,,,,True,0
+2,7,"[4, 98, 2]",588,240,240,True,False,240,,,,,,,,,True,0
+2,7,"[4, 68, 2]",408,240,240,True,False,240,,,,,,,,,True,0
+2,7,"[4, 60, 2]",360,240,240,True,False,240,,,,,,,,,True,0
+2,7,"[4, 46, 2]",276,230,240,False,False,230,,,,,,,,,True,0
+2,7,"[4, 49, 2]",294,240,240,True,False,240,,,,,,,,,True,0
+2,7,"[4, 47, 2]",282,235,240,False,False,235,,,,,,,,,True,0

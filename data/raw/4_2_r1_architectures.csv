@@ -1,2 +1,3 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,1,"[4, 2, 2]",12,8,8,True,True
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,1,"[4, 2, 2]",12,8,8,True,True,,,,,,,,,
+2,1,"[4, 1, 2]",6,5,8,False,False,5.0,0.0,3.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0507198999998763,maximal_subarchitecture_of_recorded_mfa,"[[4, 2, 2]]",[1]

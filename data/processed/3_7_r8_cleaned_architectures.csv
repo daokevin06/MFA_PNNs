@@ -1,6 +1,6 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,8,"[3, 35, 7]",350,315,315,True,True,True,315,0
-2,8,"[3, 37, 7]",370,315,315,True,False,True,315,0
-2,8,"[3, 36, 7]",360,315,315,True,False,True,315,0
-2,8,"[3, 32, 7]",320,288,315,False,False,True,288,0
-2,8,"[3, 34, 7]",340,306,315,False,False,True,306,0
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2,8,"[3, 35, 7]",350,315,315,True,True,315,,,,,,,,,True,0
+2,8,"[3, 37, 7]",370,315,315,True,False,315,,,,,,,,,True,0
+2,8,"[3, 36, 7]",360,315,315,True,False,315,,,,,,,,,True,0
+2,8,"[3, 32, 7]",320,288,315,False,False,288,,,,,,,,,True,0
+2,8,"[3, 34, 7]",340,306,315,False,False,306,,,,,,,,,True,0

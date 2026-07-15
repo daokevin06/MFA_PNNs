@@ -48,3 +48,4 @@ h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_f
 3,6,"[1, 1, 46, 2]",139,2,2,True,False,2,,,,,,,,,True,0
 3,6,"[1, 1, 32, 2]",97,2,2,True,False,2,,,,,,,,,True,0
 3,6,"[1, 1, 4, 2]",13,2,2,True,False,2,,,,,,,,,True,0
+4,6,"[1, 1, 1, 1, 2]",5,2,2,True,True,2,,,,,,,,,True,0

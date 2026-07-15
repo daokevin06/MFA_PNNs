@@ -1,4 +1,4 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,2,"[4, 5, 3]",35,29,30,False,False
-2,2,"[4, 9, 3]",63,30,30,True,False
-2,2,"[4, 6, 3]",42,30,30,True,True
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,2,"[4, 5, 3]",35,29,30,False,False,,,,,,,,,
+2,2,"[4, 9, 3]",63,30,30,True,False,,,,,,,,,
+2,2,"[4, 6, 3]",42,30,30,True,True,,,,,,,,,

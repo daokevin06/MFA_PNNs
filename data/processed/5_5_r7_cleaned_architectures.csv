@@ -1,14 +1,192 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,7,"[5, 184, 5]",1840,1650,1650,True,True,True,1650,0
-2,7,"[5, 169, 5]",1690,1521,1650,False,False,True,1521,0
-2,7,"[5, 260, 5]",2600,1650,1650,True,False,True,1650,0
-2,7,"[5, 237, 5]",2370,1650,1650,True,False,True,1650,0
-2,7,"[5, 212, 5]",2120,1650,1650,True,False,True,1650,0
-2,7,"[5, 180, 5]",1800,1620,1650,False,False,True,1620,0
-2,7,"[5, 203, 5]",2030,1650,1650,True,False,True,1650,0
-2,7,"[5, 201, 5]",2010,1650,1650,True,False,True,1650,0
-2,7,"[5, 196, 5]",1960,1650,1650,True,False,True,1650,0
-2,7,"[5, 186, 5]",1860,1650,1650,True,False,True,1650,0
-2,7,"[5, 181, 5]",1810,1629,1650,False,False,True,1629,0
-2,7,"[5, 182, 5]",1820,1638,1650,False,False,True,1638,0
-2,7,"[5, 183, 5]",1830,1647,1650,False,False,True,1647,0
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,is_unimodal,defect
+2.0,7.0,"[5, 184, 5]",1840.0,1650.0,1650.0,True,True,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 4, 5]",40.0,36.0,1650.0,False,False,36,0.0,1614.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.2503254000002926,nonfilling,[[184]],False,0.0
+2.0,7.0,"[5, 3, 5]",30.0,27.0,1650.0,False,False,27,0.0,1623.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.1865577999997185,nonfilling,[[184]],False,0.0
+2.0,7.0,"[5, 2, 5]",20.0,18.0,1650.0,False,False,18,0.0,1632.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.1370825000003606,nonfilling,[[184]],False,0.0
+2.0,7.0,"[5, 1, 5]",10.0,9.0,1650.0,False,False,9,0.0,1641.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0659789999999702,nonfilling,[[184]],False,0.0
+2.0,7.0,"[5, 169, 5]",1690.0,1521.0,1650.0,False,False,1521,,,,,,,,True,0.0
+2.0,7.0,"[5, 260, 5]",2600.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 237, 5]",2370.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 212, 5]",2120.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 180, 5]",1800.0,1620.0,1650.0,False,False,1620,,,,,,,,True,0.0
+2.0,7.0,"[5, 203, 5]",2030.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 201, 5]",2010.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 196, 5]",1960.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 186, 5]",1860.0,1650.0,1650.0,True,False,1650,,,,,,,,True,0.0
+2.0,7.0,"[5, 181, 5]",1810.0,1629.0,1650.0,False,False,1629,,,,,,,,True,0.0
+2.0,7.0,"[5, 182, 5]",1820.0,1638.0,1650.0,False,False,1638,,,,,,,,True,0.0
+2.0,7.0,"[5, 183, 5]",1830.0,1647.0,1650.0,False,False,1647,,,,,,,,True,0.0
+2.0,7.0,"[5, 179, 5]",1790.0,1611.0,1650.0,False,False,1611,0.0,39.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.242479699999876,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 178, 5]",1780.0,1602.0,1650.0,False,False,1602,0.0,48.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",7.573402200000146,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 177, 5]",1770.0,1593.0,1650.0,False,False,1593,0.0,57.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.9071570000000975,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 176, 5]",1760.0,1584.0,1650.0,False,False,1584,0.0,66.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.94350970000005,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 175, 5]",1750.0,1575.0,1650.0,False,False,1575,0.0,75.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.015998000000309,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 174, 5]",1740.0,1566.0,1650.0,False,False,1566,0.0,84.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.2439116000005015,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 173, 5]",1730.0,1557.0,1650.0,False,False,1557,0.0,93.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.477687099999457,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 172, 5]",1720.0,1548.0,1650.0,False,False,1548,0.0,102.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.336458899999343,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 171, 5]",1710.0,1539.0,1650.0,False,False,1539,0.0,111.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.391618100000414,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 170, 5]",1700.0,1530.0,1650.0,False,False,1530,0.0,120.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.18781239999953,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 168, 5]",1680.0,1512.0,1650.0,False,False,1512,0.0,138.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.773143899999923,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 167, 5]",1670.0,1503.0,1650.0,False,False,1503,0.0,147.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.21198959999947,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 166, 5]",1660.0,1494.0,1650.0,False,False,1494,0.0,156.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.793342999999368,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 165, 5]",1650.0,1485.0,1650.0,False,False,1485,0.0,165.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.286745600000359,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 164, 5]",1640.0,1476.0,1650.0,False,False,1476,0.0,174.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.1790634999997565,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 163, 5]",1630.0,1467.0,1650.0,False,False,1467,0.0,183.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.305095800000345,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 162, 5]",1620.0,1458.0,1650.0,False,False,1458,0.0,192.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.797426099999939,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 161, 5]",1610.0,1449.0,1650.0,False,False,1449,0.0,201.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.4501029000002745,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 160, 5]",1600.0,1440.0,1650.0,False,False,1440,0.0,210.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.0572563000005175,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 159, 5]",1590.0,1431.0,1650.0,False,False,1431,0.0,219.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",7.32339039999988,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 158, 5]",1580.0,1422.0,1650.0,False,False,1422,0.0,228.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.475587899999482,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 157, 5]",1570.0,1413.0,1650.0,False,False,1413,0.0,237.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.36128860000008,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 156, 5]",1560.0,1404.0,1650.0,False,False,1404,0.0,246.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.429370300000301,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 155, 5]",1550.0,1395.0,1650.0,False,False,1395,0.0,255.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.121265599999788,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 154, 5]",1540.0,1386.0,1650.0,False,False,1386,0.0,264.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.896609200000057,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 153, 5]",1530.0,1377.0,1650.0,False,False,1377,0.0,273.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.906990000000405,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 152, 5]",1520.0,1368.0,1650.0,False,False,1368,0.0,282.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.86385380000047,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 151, 5]",1510.0,1359.0,1650.0,False,False,1359,0.0,291.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.969576800000141,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 150, 5]",1500.0,1350.0,1650.0,False,False,1350,0.0,300.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.571605600000112,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 149, 5]",1490.0,1341.0,1650.0,False,False,1341,0.0,309.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.472989400000188,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 148, 5]",1480.0,1332.0,1650.0,False,False,1332,0.0,318.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.854163500000141,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 147, 5]",1470.0,1323.0,1650.0,False,False,1323,0.0,327.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.967971400000351,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 146, 5]",1460.0,1314.0,1650.0,False,False,1314,0.0,336.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.598891800000274,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 145, 5]",1450.0,1305.0,1650.0,False,False,1305,0.0,345.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.536619999999857,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 144, 5]",1440.0,1296.0,1650.0,False,False,1296,0.0,354.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.8168838000001415,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 143, 5]",1430.0,1287.0,1650.0,False,False,1287,0.0,363.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.893427399999382,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 142, 5]",1420.0,1278.0,1650.0,False,False,1278,0.0,372.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.204262399999607,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 141, 5]",1410.0,1269.0,1650.0,False,False,1269,0.0,381.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.6772289999998975,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 140, 5]",1400.0,1260.0,1650.0,False,False,1260,0.0,390.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.505526500000087,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 139, 5]",1390.0,1251.0,1650.0,False,False,1251,0.0,399.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.62893079999958,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 138, 5]",1380.0,1242.0,1650.0,False,False,1242,0.0,408.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.552727300000697,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 137, 5]",1370.0,1233.0,1650.0,False,False,1233,0.0,417.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.153638599999795,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 136, 5]",1360.0,1224.0,1650.0,False,False,1224,0.0,426.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.423012899999776,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 135, 5]",1350.0,1215.0,1650.0,False,False,1215,0.0,435.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.43442369999957,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 134, 5]",1340.0,1206.0,1650.0,False,False,1206,0.0,444.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.5009825999995883,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 133, 5]",1330.0,1197.0,1650.0,False,False,1197,0.0,453.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.083582000000206,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 132, 5]",1320.0,1188.0,1650.0,False,False,1188,0.0,462.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.851364699999976,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 131, 5]",1310.0,1179.0,1650.0,False,False,1179,0.0,471.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.613432299999658,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 130, 5]",1300.0,1170.0,1650.0,False,False,1170,0.0,480.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",5.623412300000382,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 129, 5]",1290.0,1161.0,1650.0,False,False,1161,0.0,489.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.855374600000687,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 128, 5]",1280.0,1152.0,1650.0,False,False,1152,0.0,498.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.174889599999915,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 127, 5]",1270.0,1143.0,1650.0,False,False,1143,0.0,507.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.379592600000251,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 126, 5]",1260.0,1134.0,1650.0,False,False,1134,0.0,516.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.443454700000075,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 125, 5]",1250.0,1125.0,1650.0,False,False,1125,0.0,525.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",6.154446000000462,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 124, 5]",1240.0,1116.0,1650.0,False,False,1116,0.0,534.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.9272478000002593,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 123, 5]",1230.0,1107.0,1650.0,False,False,1107,0.0,543.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.726691100000608,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 122, 5]",1220.0,1098.0,1650.0,False,False,1098,0.0,552.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.960601199999473,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 121, 5]",1210.0,1089.0,1650.0,False,False,1089,0.0,561.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.9101027999995495,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 120, 5]",1200.0,1080.0,1650.0,False,False,1080,0.0,570.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.3812550000002375,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 119, 5]",1190.0,1071.0,1650.0,False,False,1071,0.0,579.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.483020800000304,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 118, 5]",1180.0,1062.0,1650.0,False,False,1062,0.0,588.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.9196068999999625,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 117, 5]",1170.0,1053.0,1650.0,False,False,1053,0.0,597.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.527441600000202,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 116, 5]",1160.0,1044.0,1650.0,False,False,1044,0.0,606.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.906358100000034,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 115, 5]",1150.0,1035.0,1650.0,False,False,1035,0.0,615.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.5221535000000586,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 114, 5]",1140.0,1026.0,1650.0,False,False,1026,0.0,624.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.7902311999996527,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 113, 5]",1130.0,1017.0,1650.0,False,False,1017,0.0,633.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.3509156999998595,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 112, 5]",1120.0,1008.0,1650.0,False,False,1008,0.0,642.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.744963000000098,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 111, 5]",1110.0,999.0,1650.0,False,False,999,0.0,651.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.1430441000002247,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 110, 5]",1100.0,990.0,1650.0,False,False,990,0.0,660.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.9054470000000947,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 109, 5]",1090.0,981.0,1650.0,False,False,981,0.0,669.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.773574599999847,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 108, 5]",1080.0,972.0,1650.0,False,False,972,0.0,678.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.675762199999554,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 107, 5]",1070.0,963.0,1650.0,False,False,963,0.0,687.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.594548600000053,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 106, 5]",1060.0,954.0,1650.0,False,False,954,0.0,696.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.1948857000006683,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 105, 5]",1050.0,945.0,1650.0,False,False,945,0.0,705.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.1674793000001955,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 104, 5]",1040.0,936.0,1650.0,False,False,936,0.0,714.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.077911500000482,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 103, 5]",1030.0,927.0,1650.0,False,False,927,0.0,723.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.3964712999995754,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 102, 5]",1020.0,918.0,1650.0,False,False,918,0.0,732.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.7400336999999126,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 101, 5]",1010.0,909.0,1650.0,False,False,909,0.0,741.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.245212699999684,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 100, 5]",1000.0,900.0,1650.0,False,False,900,0.0,750.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.950055700000121,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 99, 5]",990.0,891.0,1650.0,False,False,891,0.0,759.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.254755199999636,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 98, 5]",980.0,882.0,1650.0,False,False,882,0.0,768.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.0003421999999773,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 97, 5]",970.0,873.0,1650.0,False,False,873,0.0,777.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.0711209999999483,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 96, 5]",960.0,864.0,1650.0,False,False,864,0.0,786.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.2823461999996653,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 95, 5]",950.0,855.0,1650.0,False,False,855,0.0,795.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.558285099999921,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 94, 5]",940.0,846.0,1650.0,False,False,846,0.0,804.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.6098557000004803,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 93, 5]",930.0,837.0,1650.0,False,False,837,0.0,813.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.9533058999995772,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 92, 5]",920.0,828.0,1650.0,False,False,828,0.0,822.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.921572600000218,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 91, 5]",910.0,819.0,1650.0,False,False,819,0.0,831.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.1560322000004817,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 90, 5]",900.0,810.0,1650.0,False,False,810,0.0,840.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.284890400000222,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 89, 5]",890.0,801.0,1650.0,False,False,801,0.0,849.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.665879000000132,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 88, 5]",880.0,792.0,1650.0,False,False,792,0.0,858.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.5557700999997903,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 87, 5]",870.0,783.0,1650.0,False,False,783,0.0,867.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.652707499999451,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 86, 5]",860.0,774.0,1650.0,False,False,774,0.0,876.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.9534000000003289,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 85, 5]",850.0,765.0,1650.0,False,False,765,0.0,885.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.2478823999999804,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 84, 5]",840.0,756.0,1650.0,False,False,756,0.0,894.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",4.3609661000000415,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 83, 5]",830.0,747.0,1650.0,False,False,747,0.0,903.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.2932214000002205,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 82, 5]",820.0,738.0,1650.0,False,False,738,0.0,912.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",3.962388500000088,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 81, 5]",810.0,729.0,1650.0,False,False,729,0.0,921.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.546301900000799,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 80, 5]",800.0,720.0,1650.0,False,False,720,0.0,930.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.6916572000000087,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 79, 5]",790.0,711.0,1650.0,False,False,711,0.0,939.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.8707237999997237,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 78, 5]",780.0,702.0,1650.0,False,False,702,0.0,948.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.0416298000000097,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 77, 5]",770.0,693.0,1650.0,False,False,693,0.0,957.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.5572896999992736,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 76, 5]",760.0,684.0,1650.0,False,False,684,0.0,966.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.5693691000005856,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 75, 5]",750.0,675.0,1650.0,False,False,675,0.0,975.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.9711342000000516,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 74, 5]",740.0,666.0,1650.0,False,False,666,0.0,984.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.591981599999599,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 73, 5]",730.0,657.0,1650.0,False,False,657,0.0,993.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.3210560999996237,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 72, 5]",720.0,648.0,1650.0,False,False,648,0.0,1002.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.035549700000047,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 71, 5]",710.0,639.0,1650.0,False,False,639,0.0,1011.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.872983499999464,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 70, 5]",700.0,630.0,1650.0,False,False,630,0.0,1020.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.7535500000003594,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 69, 5]",690.0,621.0,1650.0,False,False,621,0.0,1029.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.710815600000388,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 68, 5]",680.0,612.0,1650.0,False,False,612,0.0,1038.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.6670565999993414,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 67, 5]",670.0,603.0,1650.0,False,False,603,0.0,1047.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.3774632999993628,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 66, 5]",660.0,594.0,1650.0,False,False,594,0.0,1056.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.3565200000002733,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 65, 5]",650.0,585.0,1650.0,False,False,585,0.0,1065.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.4046557000001485,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 64, 5]",640.0,576.0,1650.0,False,False,576,0.0,1074.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.076730800000405,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 63, 5]",630.0,567.0,1650.0,False,False,567,0.0,1083.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.696746399999938,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 62, 5]",620.0,558.0,1650.0,False,False,558,0.0,1092.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.154399099999864,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 61, 5]",610.0,549.0,1650.0,False,False,549,0.0,1101.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.598479999999654,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 60, 5]",600.0,540.0,1650.0,False,False,540,0.0,1110.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.259169699999802,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 59, 5]",590.0,531.0,1650.0,False,False,531,0.0,1119.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.6372309999997017,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 58, 5]",580.0,522.0,1650.0,False,False,522,0.0,1128.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.8952117999997427,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 57, 5]",570.0,513.0,1650.0,False,False,513,0.0,1137.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.313955099999476,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 56, 5]",560.0,504.0,1650.0,False,False,504,0.0,1146.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.297396099999787,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 55, 5]",550.0,495.0,1650.0,False,False,495,0.0,1155.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.4757503000000725,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 54, 5]",540.0,486.0,1650.0,False,False,486,0.0,1164.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.8304984999995213,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 53, 5]",530.0,477.0,1650.0,False,False,477,0.0,1173.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.3617285000000263,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 52, 5]",520.0,468.0,1650.0,False,False,468,0.0,1182.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.112494300000435,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 51, 5]",510.0,459.0,1650.0,False,False,459,0.0,1191.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.975484399999914,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 50, 5]",500.0,450.0,1650.0,False,False,450,0.0,1200.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.6961264999999912,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 49, 5]",490.0,441.0,1650.0,False,False,441,0.0,1209.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.454800800000157,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 48, 5]",480.0,432.0,1650.0,False,False,432,0.0,1218.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.3190819000001284,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 47, 5]",470.0,423.0,1650.0,False,False,423,0.0,1227.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.021768399999928,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 46, 5]",460.0,414.0,1650.0,False,False,414,0.0,1236.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.8075894000003243,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 45, 5]",450.0,405.0,1650.0,False,False,405,0.0,1245.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",2.740877599999294,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 44, 5]",440.0,396.0,1650.0,False,False,396,0.0,1254.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.355338600000323,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 43, 5]",430.0,387.0,1650.0,False,False,387,0.0,1263.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.118712499999674,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 42, 5]",420.0,378.0,1650.0,False,False,378,0.0,1272.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.8924017999997886,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 41, 5]",410.0,369.0,1650.0,False,False,369,0.0,1281.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.7952839999998105,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 40, 5]",400.0,360.0,1650.0,False,False,360,0.0,1290.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.1802962000001571,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 39, 5]",390.0,351.0,1650.0,False,False,351,0.0,1299.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.3821445000003223,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 38, 5]",380.0,342.0,1650.0,False,False,342,0.0,1308.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.596535099999528,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 37, 5]",370.0,333.0,1650.0,False,False,333,0.0,1317.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.207625399999415,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 36, 5]",360.0,324.0,1650.0,False,False,324,0.0,1326.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.1906922999996823,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 35, 5]",350.0,315.0,1650.0,False,False,315,0.0,1335.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.930972600000132,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 34, 5]",340.0,306.0,1650.0,False,False,306,0.0,1344.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.6852799999996932,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 33, 5]",330.0,297.0,1650.0,False,False,297,0.0,1353.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.2475647000001118,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 32, 5]",320.0,288.0,1650.0,False,False,288,0.0,1362.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.0362575000008292,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 31, 5]",310.0,279.0,1650.0,False,False,279,0.0,1371.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.9143733999999312,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 30, 5]",300.0,270.0,1650.0,False,False,270,0.0,1380.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.7958966999995027,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 29, 5]",290.0,261.0,1650.0,False,False,261,0.0,1389.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.6988067000002047,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 28, 5]",280.0,252.0,1650.0,False,False,252,0.0,1398.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.603609900000265,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 27, 5]",270.0,243.0,1650.0,False,False,243,0.0,1407.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.5382725999998001,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 26, 5]",260.0,234.0,1650.0,False,False,234,0.0,1416.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.7684813999994731,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 25, 5]",250.0,225.0,1650.0,False,False,225,0.0,1425.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.9176947999994808,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 24, 5]",240.0,216.0,1650.0,False,False,216,0.0,1434.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.8477309999998397,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 23, 5]",230.0,207.0,1650.0,False,False,207,0.0,1443.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.7789318000004641,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 22, 5]",220.0,198.0,1650.0,False,False,198,0.0,1452.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.5976397999993424,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 21, 5]",210.0,189.0,1650.0,False,False,189,0.0,1461.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.5276777999997648,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 20, 5]",200.0,180.0,1650.0,False,False,180,0.0,1470.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.4766736999999921,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 19, 5]",190.0,171.0,1650.0,False,False,171,0.0,1479.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.4092793999998321,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 18, 5]",180.0,162.0,1650.0,False,False,162,0.0,1488.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.3567350000002989,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 17, 5]",170.0,153.0,1650.0,False,False,153,0.0,1497.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.3443334000003233,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 16, 5]",160.0,144.0,1650.0,False,False,144,0.0,1506.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.3311668999995163,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 15, 5]",150.0,135.0,1650.0,False,False,135,0.0,1515.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.4775887000005241,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 14, 5]",140.0,126.0,1650.0,False,False,126,0.0,1524.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.7014478000000963,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 13, 5]",130.0,117.0,1650.0,False,False,117,0.0,1533.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",1.0491120999995474,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 12, 5]",120.0,108.0,1650.0,False,False,108,0.0,1542.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.7790469000001394,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 11, 5]",110.0,99.0,1650.0,False,False,99,0.0,1551.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.6578760000002148,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 10, 5]",100.0,90.0,1650.0,False,False,90,0.0,1560.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.5076964999998381,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 9, 5]",90.0,81.0,1650.0,False,False,81,0.0,1569.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.4146426999996038,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 8, 5]",80.0,72.0,1650.0,False,False,72,0.0,1578.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.3088749999997162,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 7, 5]",70.0,63.0,1650.0,False,False,63,0.0,1587.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.220700100000613,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 6, 5]",60.0,54.0,1650.0,False,False,54,0.0,1596.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.1853300000002491,nonfilling,[[184]],True,0.0
+2.0,7.0,"[5, 5, 5]",50.0,45.0,1650.0,False,False,45,0.0,1605.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.3359084000003349,nonfilling,[[184]],True,0.0

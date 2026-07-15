@@ -1,3 +1,5 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,1,"[4, 4, 5]",36,20,20,True,True,True,20,0
-2,1,"[4, 3, 5]",27,18,20,False,False,False,20,2
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2.0,1.0,"[4, 4, 5]",36.0,20.0,20.0,True,True,20,,,,,,,,,True,0.0
+2.0,1.0,"[4, 3, 5]",27.0,18.0,20.0,False,False,20,,,,,,,,,False,2.0
+2.0,1.0,"[4, 2, 5]",18.0,14.0,20.0,False,False,16,2.0,6.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0776424000000588,nonfilling,[[4]],,False,2.0
+2.0,1.0,"[4, 1, 5]",9.0,8.0,20.0,False,False,8,0.0,12.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0400957000001653,nonfilling,[[4]],,False,0.0

@@ -1,6 +1,6 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,5,"[4, 42, 9]",546,504,504,True,True,True,504,0
-2,5,"[4, 54, 9]",702,504,504,True,False,True,504,0
-2,5,"[4, 45, 9]",585,504,504,True,False,True,504,0
-2,5,"[4, 43, 9]",559,504,504,True,False,True,504,0
-2,5,"[4, 41, 9]",533,492,504,False,False,True,492,0
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2,5,"[4, 42, 9]",546,504,504,True,True,504,,,,,,,,,True,0
+2,5,"[4, 54, 9]",702,504,504,True,False,504,,,,,,,,,True,0
+2,5,"[4, 45, 9]",585,504,504,True,False,504,,,,,,,,,True,0
+2,5,"[4, 43, 9]",559,504,504,True,False,504,,,,,,,,,True,0
+2,5,"[4, 41, 9]",533,492,504,False,False,492,,,,,,,,,True,0

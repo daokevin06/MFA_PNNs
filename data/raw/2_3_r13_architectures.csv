@@ -1,0 +1,14 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,13,"[2, 12, 3]",60,42,42,True,False
+2,13,"[2, 10, 3]",50,40,42,False,False
+2,13,"[2, 11, 3]",55,42,42,True,True
+3,13,"[2, 75, 8, 3]",774,128,510,False,False
+3,13,"[2, 159, 13, 3]",2424,208,510,False,False
+3,13,"[2, 91, 14, 3]",1498,224,510,False,False
+3,13,"[2, 170, 12, 3]",2416,192,510,False,False
+3,13,"[2, 159, 14, 3]",2586,224,510,False,False
+3,13,"[2, 169, 13, 3]",2574,208,510,False,False
+3,13,"[2, 170, 13, 3]",2589,208,510,False,False
+3,13,"[2, 167, 14, 3]",2714,224,510,False,False
+3,13,"[2, 169, 14, 3]",2746,224,510,False,False
+3,13,"[2, 170, 14, 3]",2762,224,510,False,False

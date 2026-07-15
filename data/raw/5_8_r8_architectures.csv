@@ -1,12 +1,13 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,8,"[5, 306, 8]",3978,3672,3960,False,False
-2,8,"[5, 490, 8]",6370,3960,3960,True,False
-2,8,"[5, 372, 8]",4836,3960,3960,True,False
-2,8,"[5, 360, 8]",4680,3960,3960,True,False
-2,8,"[5, 352, 8]",4576,3960,3960,True,False
-2,8,"[5, 308, 8]",4004,3696,3960,False,False
-2,8,"[5, 309, 8]",4017,3708,3960,False,False
-2,8,"[5, 327, 8]",4251,3924,3960,False,False
-2,8,"[5, 336, 8]",4368,3960,3960,True,False
-2,8,"[5, 329, 8]",4277,3948,3960,False,False
-2,8,"[5, 335, 8]",4355,3960,3960,True,True
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,8,"[5, 306, 8]",3978,3672,3960,False,False,,,,,,,,,
+2,8,"[5, 490, 8]",6370,3960,3960,True,False,,,,,,,,,
+2,8,"[5, 372, 8]",4836,3960,3960,True,False,,,,,,,,,
+2,8,"[5, 360, 8]",4680,3960,3960,True,False,,,,,,,,,
+2,8,"[5, 352, 8]",4576,3960,3960,True,False,,,,,,,,,
+2,8,"[5, 308, 8]",4004,3696,3960,False,False,,,,,,,,,
+2,8,"[5, 309, 8]",4017,3708,3960,False,False,,,,,,,,,
+2,8,"[5, 327, 8]",4251,3924,3960,False,False,,,,,,,,,
+2,8,"[5, 336, 8]",4368,3960,3960,True,False,,,,,,,,,
+2,8,"[5, 329, 8]",4277,3948,3960,False,False,,,,,,,,,
+2,8,"[5, 335, 8]",4355,3960,3960,True,True,,,,,,,,,
+2,8,"[5, 334, 8]",4342,3960,3960,True,False,3960.0,0.0,0.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",21.66016529999979,filling_maximal_subarchitecture_contradiction,"[[5, 335, 8]]",[1]

@@ -1,13 +1,13 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,6,"[5, 70, 2]",490,420,420,True,True,True,420,0
-2,6,"[5, 136, 2]",952,420,420,True,False,True,420,0
-2,6,"[5, 124, 2]",868,420,420,True,False,True,420,0
-2,6,"[5, 91, 2]",637,420,420,True,False,True,420,0
-2,6,"[5, 81, 2]",567,420,420,True,False,True,420,0
-2,6,"[5, 75, 2]",525,420,420,True,False,True,420,0
-2,6,"[5, 63, 2]",441,378,420,False,False,True,378,0
-2,6,"[5, 65, 2]",455,390,420,False,False,True,390,0
-2,6,"[5, 71, 2]",497,420,420,True,False,True,420,0
-2,6,"[5, 67, 2]",469,402,420,False,False,True,402,0
-2,6,"[5, 68, 2]",476,408,420,False,False,True,408,0
-2,6,"[5, 69, 2]",483,414,420,False,False,True,414,0
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2,6,"[5, 70, 2]",490,420,420,True,True,420,,,,,,,,,True,0
+2,6,"[5, 136, 2]",952,420,420,True,False,420,,,,,,,,,True,0
+2,6,"[5, 124, 2]",868,420,420,True,False,420,,,,,,,,,True,0
+2,6,"[5, 91, 2]",637,420,420,True,False,420,,,,,,,,,True,0
+2,6,"[5, 81, 2]",567,420,420,True,False,420,,,,,,,,,True,0
+2,6,"[5, 75, 2]",525,420,420,True,False,420,,,,,,,,,True,0
+2,6,"[5, 63, 2]",441,378,420,False,False,378,,,,,,,,,True,0
+2,6,"[5, 65, 2]",455,390,420,False,False,390,,,,,,,,,True,0
+2,6,"[5, 71, 2]",497,420,420,True,False,420,,,,,,,,,True,0
+2,6,"[5, 67, 2]",469,402,420,False,False,402,,,,,,,,,True,0
+2,6,"[5, 68, 2]",476,408,420,False,False,408,,,,,,,,,True,0
+2,6,"[5, 69, 2]",483,414,420,False,False,414,,,,,,,,,True,0
