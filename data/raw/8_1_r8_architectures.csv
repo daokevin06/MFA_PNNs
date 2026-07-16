@@ -1,1 +1,13 @@
 h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,8,"[8, 3971, 1]",35739,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 1849, 1]",16641,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 1230, 1]",11070,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 863, 1]",7767,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 800, 1]",7200,6400,6435,False,False,,,,,,,,,
+2,8,"[8, 821, 1]",7389,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 803, 1]",7227,6424,6435,False,False,,,,,,,,,
+2,8,"[8, 818, 1]",7362,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 816, 1]",7344,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 809, 1]",7281,6435,6435,True,False,,,,,,,,,
+2,8,"[8, 805, 1]",7245,6435,6435,True,True,,,,,,,,,
+2,8,"[8, 804, 1]",7236,6432,6435,False,False,,,,,,,,,

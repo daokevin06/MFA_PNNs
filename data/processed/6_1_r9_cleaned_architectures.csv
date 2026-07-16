@@ -1,0 +1,15 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,9,"[6, 334, 1]",2338,2002,2002,True,True,True,2002,0
+2,9,"[6, 1873, 1]",13111,2002,2002,True,False,True,2002,0
+2,9,"[6, 1093, 1]",7651,2002,2002,True,False,True,2002,0
+2,9,"[6, 603, 1]",4221,2002,2002,True,False,True,2002,0
+2,9,"[6, 453, 1]",3171,2002,2002,True,False,True,2002,0
+2,9,"[6, 328, 1]",2296,1968,2002,False,False,True,1968,0
+2,9,"[6, 420, 1]",2940,2002,2002,True,False,True,2002,0
+2,9,"[6, 384, 1]",2688,2002,2002,True,False,True,2002,0
+2,9,"[6, 332, 1]",2324,1992,2002,False,False,True,1992,0
+2,9,"[6, 362, 1]",2534,2002,2002,True,False,True,2002,0
+2,9,"[6, 351, 1]",2457,2002,2002,True,False,True,2002,0
+2,9,"[6, 346, 1]",2422,2002,2002,True,False,True,2002,0
+2,9,"[6, 335, 1]",2345,2002,2002,True,False,True,2002,0
+2,9,"[6, 333, 1]",2331,1998,2002,False,False,True,1998,0

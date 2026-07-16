@@ -1,0 +1,28 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,14,"[2, 10, 2]",40,30,30,True,True,True,30,0
+2,14,"[2, 14, 2]",56,30,30,True,False,True,30,0
+2,14,"[2, 12, 2]",48,30,30,True,False,True,30,0
+2,14,"[2, 8, 2]",32,24,30,False,False,True,24,0
+2,14,"[2, 11, 2]",44,30,30,True,False,True,30,0
+2,14,"[2, 9, 2]",36,27,30,False,False,True,27,0
+3,14,"[2, 149, 1, 2]",449,16,394,False,False,False,299,283
+3,14,"[2, 160, 7, 2]",1454,112,394,False,False,True,394,282
+3,14,"[2, 53, 8, 2]",546,128,394,False,False,True,394,266
+3,14,"[2, 65, 9, 2]",733,144,394,False,False,True,394,250
+3,14,"[2, 99, 14, 2]",1612,224,394,False,False,True,394,170
+3,14,"[2, 138, 11, 2]",1816,176,394,False,False,True,394,218
+3,14,"[2, 168, 3, 2]",846,48,394,False,False,True,394,346
+3,14,"[2, 164, 5, 2]",1158,80,394,False,False,True,394,314
+3,14,"[2, 172, 12, 2]",2432,192,394,False,False,True,394,202
+3,14,"[2, 164, 15, 2]",2818,240,394,False,False,True,394,154
+3,14,"[2, 191, 11, 2]",2505,176,394,False,False,True,394,218
+3,14,"[2, 185, 14, 2]",2988,224,394,False,False,True,394,170
+3,14,"[2, 194, 3, 2]",976,48,394,False,False,True,394,346
+3,14,"[2, 197, 4, 2]",1190,64,394,False,False,True,394,330
+3,14,"[2, 196, 14, 2]",3164,224,394,False,False,True,394,170
+3,14,"[2, 186, 15, 2]",3192,240,394,False,False,True,394,154
+3,14,"[2, 197, 10, 2]",2384,160,394,False,False,True,394,234
+3,14,"[2, 190, 15, 2]",3260,240,394,False,False,True,394,154
+3,14,"[2, 191, 15, 2]",3277,240,394,False,False,True,394,154
+3,14,"[2, 197, 11, 2]",2583,176,394,False,False,True,394,218
+3,14,"[2, 197, 15, 2]",3379,240,394,False,False,True,394,154

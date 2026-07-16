@@ -1,0 +1,12 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
+2,9,"[8, 2120, 1]",19080,11440,11440,True,False
+2,9,"[8, 1518, 1]",13662,11440,11440,True,False
+2,9,"[8, 1438, 1]",12942,11440,11440,True,False
+2,9,"[8, 1327, 1]",11943,10616,11440,False,False
+2,9,"[8, 1405, 1]",12645,11240,11440,False,False
+2,9,"[8, 1414, 1]",12726,11312,11440,False,False
+2,9,"[8, 1428, 1]",12852,11424,11440,False,False
+2,9,"[8, 1434, 1]",12906,11440,11440,True,False
+2,9,"[8, 1431, 1]",12879,11440,11440,True,False
+2,9,"[8, 1430, 1]",12870,11440,11440,True,True
+2,9,"[8, 1429, 1]",12861,11432,11440,False,False

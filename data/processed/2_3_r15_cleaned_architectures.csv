@@ -1,0 +1,25 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,15,"[2, 12, 3]",60,48,48,True,True,True,48,0
+2,15,"[2, 14, 3]",70,48,48,True,False,True,48,0
+2,15,"[2, 10, 3]",50,40,48,False,False,True,40,0
+2,15,"[2, 13, 3]",65,48,48,True,False,True,48,0
+2,15,"[2, 11, 3]",55,44,48,False,False,True,44,0
+3,15,"[2, 181, 14, 3]",2938,252,678,False,False,True,678,426
+3,15,"[2, 209, 11, 3]",2750,198,678,False,False,True,678,480
+3,15,"[2, 221, 8, 3]",2234,144,678,False,False,True,678,534
+3,15,"[2, 131, 16, 3]",2406,288,678,False,False,True,678,390
+3,15,"[2, 184, 16, 3]",3360,288,678,False,False,True,678,390
+3,15,"[2, 207, 12, 3]",2934,216,678,False,False,True,678,462
+3,15,"[2, 198, 15, 3]",3411,270,678,False,False,True,678,408
+3,15,"[2, 209, 14, 3]",3386,252,678,False,False,True,678,426
+3,15,"[2, 221, 11, 3]",2906,198,678,False,False,True,678,480
+3,15,"[2, 209, 15, 3]",3598,270,678,False,False,True,678,408
+3,15,"[2, 223, 14, 3]",3610,252,678,False,False,True,678,426
+3,15,"[2, 206, 16, 3]",3756,288,678,False,False,True,678,390
+3,15,"[2, 224, 10, 3]",2718,180,678,False,False,True,678,498
+3,15,"[2, 215, 16, 3]",3918,288,678,False,False,True,678,390
+3,15,"[2, 226, 5, 3]",1597,90,678,False,False,True,678,588
+3,15,"[2, 226, 13, 3]",3429,234,678,False,False,True,678,444
+3,15,"[2, 221, 16, 3]",4026,288,678,False,False,True,678,390
+3,15,"[2, 226, 15, 3]",3887,270,678,False,False,True,678,408
+3,15,"[2, 226, 16, 3]",4116,288,678,False,False,True,678,390

@@ -1,0 +1,17 @@
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
+2,18,"[2, 15, 3]",75,57,57,True,True,True,57,0
+2,18,"[2, 19, 3]",95,57,57,True,False,True,57,0
+2,18,"[2, 12, 3]",60,48,57,False,False,True,48,0
+2,18,"[2, 14, 3]",70,56,57,False,False,True,56,0
+3,18,"[2, 279, 16, 3]",5070,336,975,False,False,True,975,639
+3,18,"[2, 292, 4, 3]",1764,84,975,False,False,True,975,891
+3,18,"[2, 293, 6, 3]",2362,126,975,False,False,True,975,849
+3,18,"[2, 98, 18, 3]",2014,378,975,False,False,True,975,597
+3,18,"[2, 254, 18, 3]",5134,378,975,False,False,True,975,597
+3,18,"[2, 322, 19, 3]",6819,399,975,False,False,True,975,576
+3,18,"[2, 324, 12, 3]",4572,252,975,False,False,True,975,723
+3,18,"[2, 324, 17, 3]",6207,357,975,False,False,True,975,618
+3,18,"[2, 325, 8, 3]",3274,168,975,False,False,True,975,807
+3,18,"[2, 325, 14, 3]",5242,294,975,False,False,True,975,681
+3,18,"[2, 325, 18, 3]",6554,378,975,False,False,True,975,597
+3,18,"[2, 325, 19, 3]",6882,399,975,False,False,True,975,576

@@ -445,6 +445,6 @@ h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_f
 3.0,2.0,"[8, 2, 2, 1]",22.0,17.0,330.0,False,False,18,1.0,313.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0689381000001958,nonfilling,"[[20, 15], [21, 12], [22, 11]]",True,1.0
 3.0,2.0,"[8, 2, 1, 1]",19.0,15.0,330.0,False,False,16,1.0,315.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0436472000001231,nonfilling,"[[20, 15], [21, 12], [22, 11]]",True,1.0
 3.0,2.0,"[8, 1, 1, 1]",10.0,8.0,330.0,False,False,8,0.0,322.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",0.0550225000006321,nonfilling,"[[20, 15], [21, 12], [22, 11]]",True,0.0
-4.0,2.0,"[8, 136, 111, 139, 1]",31752.0,6435.0,6435.0,True,True,6435,,,,,,,,False,0.0
-4.0,2.0,"[8, 136, 111, 138, 1]",31640.0,6435.0,6435.0,True,False,6435,0.0,0.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",247.06502470000032,filling_below_recorded_mfa,"[[136, 111, 139]]",False,0.0
+4.0,2.0,"[8, 136, 111, 138, 1]",31640.0,6435.0,6435.0,True,True,6435,0.0,0.0,dim_backprop_gpu_only/CuPy-CUDA,"(10000019, 19511957)",247.06502470000032,filling_below_recorded_mfa,"[[136, 111, 139]]",False,0.0
+4.0,2.0,"[8, 136, 111, 139, 1]",31752.0,6435.0,6435.0,True,False,6435,,,,,,,,False,0.0
 4.0,2.0,"[8, 145, 41, 3, 1]",7231.0,987.0,6435.0,False,False,6435,,,,,,,,True,5448.0
