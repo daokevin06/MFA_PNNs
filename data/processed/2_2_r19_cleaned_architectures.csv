@@ -1,25 +1,25 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,is_unimodal,expected_dimension,defect
-2,19,"[2, 14, 2]",56,40,40,True,True,True,40,0
-2,19,"[2, 17, 2]",68,40,40,True,False,True,40,0
-2,19,"[2, 12, 2]",48,36,40,False,False,True,36,0
-2,19,"[2, 15, 2]",60,40,40,True,False,True,40,0
-2,19,"[2, 13, 2]",52,39,40,False,False,True,39,0
-3,19,"[2, 162, 11, 2]",2128,231,724,False,False,True,724,493
-3,19,"[2, 185, 18, 2]",3736,378,724,False,False,True,724,346
-3,19,"[2, 324, 17, 2]",6190,357,724,False,False,True,724,367
-3,19,"[2, 356, 13, 2]",5366,273,724,False,False,True,724,451
-3,19,"[2, 355, 16, 2]",6422,336,724,False,False,True,724,388
-3,19,"[2, 148, 19, 2]",3146,399,724,False,False,True,724,325
-3,19,"[2, 295, 18, 2]",5936,378,724,False,False,True,724,346
-3,19,"[2, 360, 6, 2]",2892,126,724,False,False,True,724,598
-3,19,"[2, 292, 19, 2]",6170,399,724,False,False,True,724,325
-3,19,"[2, 337, 19, 2]",7115,399,724,False,False,True,724,325
-3,19,"[2, 243, 20, 2]",5386,420,724,False,False,True,724,304
-3,19,"[2, 338, 20, 2]",7476,420,724,False,False,True,724,304
-3,19,"[2, 359, 7, 2]",3245,147,724,False,False,True,724,577
-3,19,"[2, 353, 18, 2]",7096,378,724,False,False,True,724,346
-3,19,"[2, 352, 19, 2]",7430,399,724,False,False,True,724,325
-3,19,"[2, 360, 17, 2]",6874,357,724,False,False,True,724,367
-3,19,"[2, 357, 19, 2]",7535,399,724,False,False,True,724,325
-3,19,"[2, 362, 2, 2]",1452,42,724,False,False,True,724,682
-3,19,"[2, 362, 20, 2]",8004,420,724,False,False,True,724,304
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers,is_unimodal,defect
+2,19,"[2, 14, 2]",56,40,40,True,True,40,,,,,,,,,True,0
+2,19,"[2, 17, 2]",68,40,40,True,False,40,,,,,,,,,True,0
+2,19,"[2, 12, 2]",48,36,40,False,False,36,,,,,,,,,True,0
+2,19,"[2, 15, 2]",60,40,40,True,False,40,,,,,,,,,True,0
+2,19,"[2, 13, 2]",52,39,40,False,False,39,,,,,,,,,True,0
+3,19,"[2, 162, 11, 2]",2128,231,724,False,False,724,,,,,,,,,True,493
+3,19,"[2, 185, 18, 2]",3736,378,724,False,False,724,,,,,,,,,True,346
+3,19,"[2, 324, 17, 2]",6190,357,724,False,False,724,,,,,,,,,True,367
+3,19,"[2, 356, 13, 2]",5366,273,724,False,False,724,,,,,,,,,True,451
+3,19,"[2, 355, 16, 2]",6422,336,724,False,False,724,,,,,,,,,True,388
+3,19,"[2, 148, 19, 2]",3146,399,724,False,False,724,,,,,,,,,True,325
+3,19,"[2, 295, 18, 2]",5936,378,724,False,False,724,,,,,,,,,True,346
+3,19,"[2, 360, 6, 2]",2892,126,724,False,False,724,,,,,,,,,True,598
+3,19,"[2, 292, 19, 2]",6170,399,724,False,False,724,,,,,,,,,True,325
+3,19,"[2, 337, 19, 2]",7115,399,724,False,False,724,,,,,,,,,True,325
+3,19,"[2, 243, 20, 2]",5386,420,724,False,False,724,,,,,,,,,True,304
+3,19,"[2, 338, 20, 2]",7476,420,724,False,False,724,,,,,,,,,True,304
+3,19,"[2, 359, 7, 2]",3245,147,724,False,False,724,,,,,,,,,True,577
+3,19,"[2, 353, 18, 2]",7096,378,724,False,False,724,,,,,,,,,True,346
+3,19,"[2, 352, 19, 2]",7430,399,724,False,False,724,,,,,,,,,True,325
+3,19,"[2, 360, 17, 2]",6874,357,724,False,False,724,,,,,,,,,True,367
+3,19,"[2, 357, 19, 2]",7535,399,724,False,False,724,,,,,,,,,True,325
+3,19,"[2, 362, 2, 2]",1452,42,724,False,False,724,,,,,,,,,True,682
+3,19,"[2, 362, 20, 2]",8004,420,724,False,False,724,,,,,,,,,True,304

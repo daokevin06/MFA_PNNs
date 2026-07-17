@@ -1,19 +1,19 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,18,"[2, 15, 2]",60,38,38,True,False
-2,18,"[2, 10, 2]",40,30,38,False,False
-2,18,"[2, 13, 2]",52,38,38,True,True
-2,18,"[2, 12, 2]",48,36,38,False,False
-3,18,"[2, 180, 18, 2]",3636,360,650,False,False
-3,18,"[2, 186, 2, 2]",748,40,650,False,False
-3,18,"[2, 321, 18, 2]",6456,360,650,False,False
-3,18,"[2, 212, 19, 2]",4490,380,650,False,False
-3,18,"[2, 324, 15, 2]",5538,300,650,False,False
-3,18,"[2, 325, 13, 2]",4901,260,650,False,False
-3,18,"[2, 294, 19, 2]",6212,380,650,False,False
-3,18,"[2, 316, 19, 2]",6674,380,650,False,False
-3,18,"[2, 318, 19, 2]",6716,380,650,False,False
-3,18,"[2, 321, 19, 2]",6779,380,650,False,False
-3,18,"[2, 325, 16, 2]",5882,320,650,False,False
-3,18,"[2, 324, 19, 2]",6842,380,650,False,False
-3,18,"[2, 325, 18, 2]",6536,360,650,False,False
-3,18,"[2, 325, 19, 2]",6863,380,650,False,False
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,18,"[2, 15, 2]",60,38,38,True,False,,,,,,,,,
+2,18,"[2, 10, 2]",40,30,38,False,False,,,,,,,,,
+2,18,"[2, 13, 2]",52,38,38,True,True,,,,,,,,,
+2,18,"[2, 12, 2]",48,36,38,False,False,,,,,,,,,
+3,18,"[2, 180, 18, 2]",3636,360,650,False,False,,,,,,,,,
+3,18,"[2, 186, 2, 2]",748,40,650,False,False,,,,,,,,,
+3,18,"[2, 321, 18, 2]",6456,360,650,False,False,,,,,,,,,
+3,18,"[2, 212, 19, 2]",4490,380,650,False,False,,,,,,,,,
+3,18,"[2, 324, 15, 2]",5538,300,650,False,False,,,,,,,,,
+3,18,"[2, 325, 13, 2]",4901,260,650,False,False,,,,,,,,,
+3,18,"[2, 294, 19, 2]",6212,380,650,False,False,,,,,,,,,
+3,18,"[2, 316, 19, 2]",6674,380,650,False,False,,,,,,,,,
+3,18,"[2, 318, 19, 2]",6716,380,650,False,False,,,,,,,,,
+3,18,"[2, 321, 19, 2]",6779,380,650,False,False,,,,,,,,,
+3,18,"[2, 325, 16, 2]",5882,320,650,False,False,,,,,,,,,
+3,18,"[2, 324, 19, 2]",6842,380,650,False,False,,,,,,,,,
+3,18,"[2, 325, 18, 2]",6536,360,650,False,False,,,,,,,,,
+3,18,"[2, 325, 19, 2]",6863,380,650,False,False,,,,,,,,,

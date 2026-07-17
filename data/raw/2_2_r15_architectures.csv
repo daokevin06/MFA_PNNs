@@ -1,22 +1,22 @@
-h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal
-2,15,"[2, 12, 2]",48,32,32,True,False
-2,15,"[2, 9, 2]",36,27,32,False,False
-2,15,"[2, 10, 2]",40,30,32,False,False
-2,15,"[2, 11, 2]",44,32,32,True,True
-3,15,"[2, 82, 15, 2]",1424,255,452,False,False
-3,15,"[2, 207, 8, 2]",2086,136,452,False,False
-3,15,"[2, 161, 12, 2]",2278,204,452,False,False
-3,15,"[2, 188, 15, 2]",3226,255,452,False,False
-3,15,"[2, 200, 9, 2]",2218,153,452,False,False
-3,15,"[2, 159, 16, 2]",2894,272,452,False,False
-3,15,"[2, 209, 7, 2]",1895,119,452,False,False
-3,15,"[2, 219, 6, 2]",1764,102,452,False,False
-3,15,"[2, 208, 16, 2]",3776,272,452,False,False
-3,15,"[2, 211, 14, 2]",3404,238,452,False,False
-3,15,"[2, 226, 2, 2]",908,34,452,False,False
-3,15,"[2, 213, 15, 2]",3651,255,452,False,False
-3,15,"[2, 226, 15, 2]",3872,255,452,False,False
-3,15,"[2, 219, 16, 2]",3974,272,452,False,False
-3,15,"[2, 223, 16, 2]",4046,272,452,False,False
-3,15,"[2, 225, 16, 2]",4082,272,452,False,False
-3,15,"[2, 226, 16, 2]",4100,272,452,False,False
+h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_full_dimension,is_minimal,expected_dimension,defect_expected,defect_ambient,backend,primes,elapsed_seconds,status,covered_by_mfa,shrunk_hidden_layers
+2,15,"[2, 12, 2]",48,32,32,True,False,,,,,,,,,
+2,15,"[2, 9, 2]",36,27,32,False,False,,,,,,,,,
+2,15,"[2, 10, 2]",40,30,32,False,False,,,,,,,,,
+2,15,"[2, 11, 2]",44,32,32,True,True,,,,,,,,,
+3,15,"[2, 82, 15, 2]",1424,255,452,False,False,,,,,,,,,
+3,15,"[2, 207, 8, 2]",2086,136,452,False,False,,,,,,,,,
+3,15,"[2, 161, 12, 2]",2278,204,452,False,False,,,,,,,,,
+3,15,"[2, 188, 15, 2]",3226,255,452,False,False,,,,,,,,,
+3,15,"[2, 200, 9, 2]",2218,153,452,False,False,,,,,,,,,
+3,15,"[2, 159, 16, 2]",2894,272,452,False,False,,,,,,,,,
+3,15,"[2, 209, 7, 2]",1895,119,452,False,False,,,,,,,,,
+3,15,"[2, 219, 6, 2]",1764,102,452,False,False,,,,,,,,,
+3,15,"[2, 208, 16, 2]",3776,272,452,False,False,,,,,,,,,
+3,15,"[2, 211, 14, 2]",3404,238,452,False,False,,,,,,,,,
+3,15,"[2, 226, 2, 2]",908,34,452,False,False,,,,,,,,,
+3,15,"[2, 213, 15, 2]",3651,255,452,False,False,,,,,,,,,
+3,15,"[2, 226, 15, 2]",3872,255,452,False,False,,,,,,,,,
+3,15,"[2, 219, 16, 2]",3974,272,452,False,False,,,,,,,,,
+3,15,"[2, 223, 16, 2]",4046,272,452,False,False,,,,,,,,,
+3,15,"[2, 225, 16, 2]",4082,272,452,False,False,,,,,,,,,
+3,15,"[2, 226, 16, 2]",4100,272,452,False,False,,,,,,,,,
