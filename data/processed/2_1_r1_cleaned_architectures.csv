@@ -54,3 +54,6 @@ h,exponent,architecture,num_parameters,dimension_computed,ambient_dimension,is_f
 4,1,"[2, 1, 1, 1, 1]",5,2,2,True,True,2,,,,,,,,,True,0
 5,1,"[2, 1, 1, 1, 1, 1]",6,2,2,True,True,2,,,,,,,,,True,0
 6,1,"[2, 1, 1, 1, 1, 1, 1]",7,2,2,True,True,2,,,,,,,,,True,0
+7,1,"[2, 1, 1, 1, 1, 1, 1, 1]",8,2,2,True,True,2,,,,,,,,,True,0
+8,1,"[2, 1, 1, 1, 1, 1, 1, 1, 1]",9,2,2,True,True,2,,,,,,,,,True,0
+9,1,"[2, 1, 1, 1, 1, 1, 1, 1, 1, 1]",10,2,2,True,True,2,,,,,,,,,True,0
